@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>打飞机之王</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f0f8ff;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 50px;
+        }
+
+        .side {
+            width: 30%;
+            text-align: center;
+        }
+
+        .middle {
+            width: 40%;
+            text-align: center;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        h1 {
+            color: #ff4500;
+        }
+
+        p {
+            font-size: 18px;
+            color: #333;
+        }
+
+        button {
+            background-color: #ff4500;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        button:hover {
+            background-color: #ff6347;
+        }
+    </style>
+</head>
+<body>
+    <h1>东安王培森 vs 晋江小张龙</h1>
+
+    <div class="container">
+        <!-- 左边：东安王培森 -->
+        <div class="side">
+            <h2>东安王培森</h2>
+            <img src="https://th.bing.com/th/id/R.d8531df064096de71034ffb8bf3e5c75?rik=%2fr5uwS%2fcJn%2byAA&riu=http%3a%2f%2fpic4.nipic.com%2f20091113%2f1982774_180244652063_2.jpg&ehk=ozpPV03jNRgYD4VJq3MOS%2bcglZnlrNxK%2fglGf2z75us%3d&risl=&pid=ImgRaw&r=0" alt="飞机剪影">
+            <p>东安王培森，今天上班打飞机</p>
+            <button onclick="alert('帮东安王培森来一发！')">点击帮大师来一发</button>
+        </div>
+
+        <!-- 中间：打飞机图案 -->
+        <div class="middle">
+            <img src="https://th.bing.com/th/id/R.ac1ba118665812da895c184022e85cff?rik=BfxfUmUsfJAo4g&riu=http%3a%2f%2fn.sinaimg.cn%2fsinakd10021%2f0%2fw2048h1152%2f20230818%2f7d14-be8e72e4bf8d58cb18d8d23641797af6.jpg&ehk=EZ4KgI1%2bpQjBZl60QqDyZ%2fFQvn3Aflj7tjYJNoUirn8%3d&risl=&pid=ImgRaw&r=0" alt="打飞机图案">
+        </div>
+
+        <!-- 右边：晋江小张龙 -->
+        <div class="side">
+            <h2>晋江小张龙</h2>
+            <img src="https://th.bing.com/th/id/OIP.FtcN2uOLyhkVkGZCk9zV2wHaGQ?w=710&h=600&rs=1&pid=ImgDetMain" alt="晋江小张龙图片">
+            <p>晋江小张龙，明天继续打飞机</p>
+            <button onclick="alert('帮晋江小张龙来一发！')">点击帮大师来一发</button>
+        </div>
+    </div>
+</body>
+</html>
